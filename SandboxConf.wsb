@@ -1,0 +1,13 @@
+<Configuration>
+  <VGpu>Default</VGpu>
+  <Networking>Default</Networking>
+  <MappedFolders>
+    <MappedFolder>
+      <HostFolder>D:\Sandbox</HostFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+  </MappedFolders>
+  <LogonCommand>
+    <Command>cmd.exe /c start powershell.exe -ExecutionPolicy RemoteSigned -File C:\users\WDAGUtilityAccount\Desktop\Sandbox\Installer.ps1</Command>
+  </LogonCommand>
+</Configuration>
