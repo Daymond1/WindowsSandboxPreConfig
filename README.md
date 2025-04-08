@@ -119,3 +119,5 @@ Ensure that the installers are placed in the `D:\Sandbox` folder so that the scr
 ### 5. Run the `SandboxConf.wsb` 
 
 To start Windows Sandbox with the configured settings and automated installation, simply double-click the `SandboxConf.wsb` file you created in. Windows Sandbox will launch, map the specified folder, and automatically execute the `Installer.ps1` script. You can monitor the installation process in the PowerShell window that will appear.
+![GIF Animation](gif.gif)
+
